@@ -2,14 +2,14 @@ import os
 
 class Config():
   #Get it from @botfather
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+  BOT_TOKEN = "2064918156:AAGUw5igWAd7n4JXXSPIJCL0sMqiM1cVJ78"
   # Your bot updates channel username without @ or leave empty
-  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
+  UPDATES_CHANNEL = "https://t.me/rarebotcode"
   # Heroku postgres DB URL
   DATABASE_URL = os.environ.get("DATABASE_URL", "")
   # get it from my.telegram.org
-  APP_ID = os.environ.get("APP_ID", 123456)
-  API_HASH = os.environ.get("API_HASH", "")
+  APP_ID = "6073718"
+  API_HASH = "fd47f1d36e8e9f919899c74638be18fb"
   # Sudo users( goto @missrose_Bot and send /id to get your id)
   SUDO_USERS = list(set(int(x) for x in os.environ.get("SUDO_USERS", "1849901062 1742353529").split()))
   SUDO_USERS.append(1849901062)
